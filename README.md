@@ -1,5 +1,8 @@
 # shadowsocks-go-docker
 
+Current version: 1.1.5
+
+
 A Dockerfile for building image of [shadowsocks-go](https://github.com/shadowsocks/shadowsocks-go) with its [binary(compiled) files](https://github.com/shadowsocks/shadowsocks-go/releases). 
 
 The image is based on  [Busybox](https://hub.docker.com/_/busybox/) which is extreamly tiny, and using binary files, so the whole image only takes **12.03 MB**. 
