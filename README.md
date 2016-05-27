@@ -1,8 +1,10 @@
 # shadowsocks-go-docker
 
-A Dockerfile for creating [shadowsocks-go](https://github.com/shadowsocks/shadowsocks-go). The image is based on  [Busybox](https://hub.docker.com/_/busybox/) which is extreamly tiny. It also uses  the [binary(compiled) version](https://github.com/shadowsocks/shadowsocks-go/releases) simply, so currently the whole image only takes **12.03 MB**. 
+A Dockerfile for building image of [shadowsocks-go](https://github.com/shadowsocks/shadowsocks-go) with its [binary(compiled) files](https://github.com/shadowsocks/shadowsocks-go/releases). 
 
-This project is inspired by [docker-shadowsocks](https://github.com/oddrationale/docker-shadowsocks), and my objective was to achieve a more bare-bone and cleaner image comparing docker-shadowsocks. 
+The image is based on  [Busybox](https://hub.docker.com/_/busybox/) which is extreamly tiny, and using binary files, so the whole image only takes **12.03 MB**. 
+
+This project is initially inspired by [docker-shadowsocks](https://github.com/oddrationale/docker-shadowsocks), and my objective was to achieve a more bare-bone and cleaner image comparing docker-shadowsocks. 
 
 
 Quick Start
