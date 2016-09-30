@@ -15,7 +15,7 @@ Quick Start
 
 This image uses ENTRYPOINT to run the containers as an executable. 
 
-    docker run -d -p 443:443 kaijun/shadowsocks-go -p 443 -k $SSPASSWORD -m aes-128-cfb 
+    docker run --restart=always -d -p 443:443 kaijun/shadowsocks-go -p 443 -k $SSPASSWORD -m aes-128-cfb 
 
 You can configure the service to run on a port of your choice. Just make sure the port number given to Docker is the same as the one given to shadowsocks. Also, it is  highly recommended that you store the shadowsocks password in an environment variable as shown above. This way the password will not show in plain text when you run `docker ps`.
 
