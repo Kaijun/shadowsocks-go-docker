@@ -1,6 +1,6 @@
 # shadowsocks-go-docker 
 
-Current version: 1.1.5 on [DockerHub](https://hub.docker.com/r/kaijun/shadowsocks-go/)
+Current version: 1.2.1 on [DockerHub](https://hub.docker.com/r/kaijun/shadowsocks-go/)
 
 
 A Dockerfile for building image of [shadowsocks-go](https://github.com/shadowsocks/shadowsocks-go) with its [binary(compiled) files](https://github.com/shadowsocks/shadowsocks-go/releases). 

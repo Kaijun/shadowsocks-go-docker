@@ -7,11 +7,11 @@ FROM busybox
 
 MAINTAINER Kaijun Chen <Kaijun.cn@gmail.com>
 
-ENV version 1.1.5
+ENV version 1.2.1
 
-ADD https://github.com/shadowsocks/shadowsocks-go/releases/download/${version}/shadowsocks-server-linux64-${version}.gz /ss.gz
+ADD https://github.com/shadowsocks/shadowsocks-go/releases/download/${version}/shadowsocks-server.tar.gz /ss.tar.gz
 
-RUN gunzip -c ss.gz > /ss
+RUN tar -zxvf /ss.tar.gz -O > /ss
 RUN chmod 777 /ss
 
 # Configure container to run as an executable
